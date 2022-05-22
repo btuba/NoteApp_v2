@@ -1,8 +1,9 @@
 ﻿namespace NoteApp_Lib
 {
     // interface de olabilir
-    abstract class Note
+    public abstract class Note
     {
-        protected abstract string View();
+        public TextColor Color { get; set; }
+        public abstract string View();
     }
 }
